@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jayden Liang - Personal Website</title>
+  <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <!-- preload scripts -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize-local.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/default.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <div class="preloader-overlay">
+    <div class="preloader valign-wrapper">
+      <div class="loading-text center-align">LOADING</div>
+    </div>
+  </div>
+  <div class="">
+    <a id="anchor-top"></a>
+    <div class="navbar-fixed">
+      <nav role="navigation">
+        <div class="nav-wrapper">
+          <ul class="tabs tabs-fixed-width hide-on-med-and-down">
+            <li class="tab"><a data-scroll href="#tab-skills" data-anchor="anchor-skills">Skills</a></li>
+            <li class="tab emphasize"><a data-scroll href="#tab-about" class="active" data-anchor="anchor-about">Jayden Liang</a></li>
+            <li class="tab"><a data-scroll href="#tab-projects" data-anchor="anchor-projects">Projects</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile-view" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <!-- Move the sidenav outside of .navbar-fixed -->
+    <div>
+      <ul id="nav-mobile-view" class="side-nav">
+        <li><a class="waves-effect waves-light btn amber accent-light icon-btn" href="mailto:jaydenliang81@gmail.com"><i class="fa  fa-envelope fa-2x"></i> Email him now</a></li>
+        <li><a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://www.facebook.com/jayjaydenL" target="_blank"><i class="fab  fa-facebook fa-2x"></i> follow him on Facebook</a></li>
+        <li><a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://www.instagram.com/jay_de_lion/" target="_blank"><i class="fab  fa-instagram fa-2x"></i> follow him on Instagram</a></li>
+        <li><a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://www.linkedin.com/in/jaydenliang" target="_blank"><i class="fab  fa-linkedin fa-2x"></i> connect him on Linkedin</a></li>
+        <li><a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://github.com/JaydenLiang" target="_blank"><i class="fab fa-github-square fa-2x"></i> fork his projects on GitHub</a></li>
+      </ul>
+    </div>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header text-extreme-large center white-text text-lighten-2">Hello World</h1>
+          <div class="row center">
+            <h5 class="header col s12 light"><span id="typed-area"></span></h5>
+          </div>
+          <div class="row center">
+            <a id="btn-enter" class="waves-effect btn-large white black-text">Enter<i class="material-icons right">keyboard_return</i></a>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
+      <div class="parallax pattern-overlay"><img id="img" src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+    <div class="container">
+      <div class="row center">
+        <div class="col s12">
+          <i class="large material-icons center-align">arrow_downward</i><br/>
+          <a id="anchor-reveal"></a>
+          <h3 class="center-align text-uppercase"><a id="anchor-about"></a>About</h3>
+        </div>
+        <div class="divider"></div>
+      </div>
+      <div id="about-container" class="section opacity-0">
+        <!--   Icon Section   -->
+        <div class="row z-depth-2">
+          <div class="col s12 m4">
+            <div>
+              <img class="responsive-img" src="img/selfie3.png">
+
+              <p class="light">Web developer with advanced skills of web applications and services development, and clouding computing.</p>
+              <p class="light">Also have a set of strong skills in web game development field.</p>
+            </div>
+          </div>
+          <!-- Basic info -->
+          <div class="col s12 m8">
+            <span class="info info-header">Info</span>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name">Name</span><span class="field-separator">:</span><span class="field-value">Jayden Liang</span>
+            </div>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name">Live in</span><span class="field-separator">:</span><span class="field-value">Vancouver, Canada</span>
+            </div>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name">Email</span><span class="field-separator">:</span><span class="field-value">jaydenliang81@gmail.com</span>
+            </div>
+          </div>
+          <!-- Education  -->
+          <div class="col s12 m8">
+            <span class="info info-header">Education</span>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name">Computer System Technology - Cloud Computing</span>
+            </div>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name">Bachelor of Computer Science</span>
+            </div>
+          </div>
+          <!-- Work Experience -->
+          <div class="col s12 m8">
+            <span class="info info-header">Experience</span>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name wide">Intern Agile Developer</span><span class="field-separator"> in </span><span class="field-value narrow">SAP</span>
+            </div>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name wide">AS3 Game Developer</span><span class="field-separator"> in </span><span class="field-value narrow">91Wan</span>
+            </div>
+          </div>
+          <div class="col s12 m8">
+            <div class="info field-sets">
+              <span class="field-name wide">Lead AS3 Game Developer</span><span class="field-separator"> in </span><span class="field-value narrow">GuanLong</span>
+            </div>
+          </div>
+        </div>
+        <div class="row center">
+          <div class="col s12">
+            <i class="large material-icons center-align">arrow_downward</i>
+          </div>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="container">
+          <div class="row center">
+            <div class="col s12">
+              <h3 class="center-align text-uppercase"><a id="anchor-skills"></a>Skills</h3>
+            </div>
+          </div>
+          <div id="skills-container">
+            <div class="row center">
+              <div class="col s12 m6">
+                <ul class="collection parallax-collection left-align text-uppercase progress-sets z-depth-2">
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">JavaScript - Basic</div>
+                      <div class="progress-bar" data-transitiongoal="85">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">JavaScript - jQuery</div>
+                      <div class="progress-bar" data-transitiongoal="80">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">JavaScript - nodeJS</div>
+                      <div class="progress-bar" data-transitiongoal="50">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">PHP</div>
+                      <div class="progress-bar" data-transitiongoal="90">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">JAVA</div>
+                      <div class="progress-bar" data-transitiongoal="65">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">C#.NET</div>
+                      <div class="progress-bar" data-transitiongoal="40">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">Docker</div>
+                      <div class="progress-bar" data-transitiongoal="50">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">Amazon AWS</div>
+                      <div class="progress-bar" data-transitiongoal="75">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">Google Cloud Engine</div>
+                      <div class="progress-bar" data-transitiongoal="60">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">MySQL</div>
+                      <div class="progress-bar" data-transitiongoal="85">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item info field-sets">
+                    <div class="progress-item">
+                      <div class="progress-label field-name">Google Firebase</div>
+                      <div class="progress-bar" data-transitiongoal="50">
+                        <span class="bar"></span>
+                        <span class="text"></span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m6">
+                <ul class="collection parallax-collection left-align text-uppercase z-depth-2">
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Web-APP Development</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Web Service Development</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Online Game Development</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">SOA (Service-Oriented Architecture)</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">RESTful Service development</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Microservices architecture</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Cloud Computing</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Devops</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Continuous Integration </div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Android Mobile-APP Development</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row center">
+        <div class="col s12">
+          <i class="large material-icons center-align">arrow_downward</i>
+        </div>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container">
+        <div class="row center">
+          <div class="col s12">
+            <h3 class="center-align text-uppercase"><a id="anchor-projects"></a>Projects</h3>
+          </div>
+        </div>
+        <div id="projects-container" class="section opacity-0">
+          <div class="row center">
+            <!-- card 6 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/twitter_bot.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">daily quote<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A random daily quote twitter bot</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">Amazon AWS</div><div class="chip">python</div><div class="chip">AWS lambda</div><div class="chip">microservices</div><div class="chip">Cloud Computing</div>
+                  </div>
+                  <div><a href="https://github.com/krouze/mariah" target="_blank">check this source code</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Twitter bot<i class="material-icons right">close</i></span>
+                  <p>This twitter bot can grab a daily quote from <a href="http://www.brainyquote.com" target="_blank">brainyquote.com</a> and post it to your own twitter.</p>     
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 7 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/emonalysis.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">Emonalysis<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A slack bot that reads your face</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">Amazon AWS</div><div class="chip">nodeJS</div><div class="chip">AWS lambda</div><div class="chip">microservices</div><div class="chip">Emotion API</div><div class="chip">Cloud Computing</div><div class="chip">AWS S3</div>
+                  </div>
+                  <div><a href="https://github.com/krouze/geese" target="_blank">check this source code</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Twitter bot<i class="material-icons right">close</i></span>
+                  <p>This slack bot allows users to detect emotions or perform emotion analysis by sending it a picture with human faces.</p>
+                  <p>With the power of the awesome <a href="https://www.kairos.com/" target="_blank">Kairos Emotion API</a>, it can tell how likely the emaion is on a human face in the given photo, by giving a set of percentages.</p>  
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 8 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/mr_booker_t.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">Mr.Booker T<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>An Amazon Alexa Skill</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">Amazon AWS</div><div class="chip">AWS Alexa Skill</div><div class="chip">microservices</div><div class="chip">Cloud Computing</div><div class="chip">nodeJS</div>
+                  </div>
+                  <div><a href="https://github.com/UnicornUnited/mr-booker-t" target="_blank">check this source code</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Mr.Booker T<i class="material-icons right">close</i></span>
+                  <p>This is an Amazon Alexa skill that enables a study room booking service on campus.</p>
+                  <p>You as a student can simply speak to Alexa with natural language (English supported only), tell it your desired reservation time spot and room size. Then it will find a room for you, handle the user verification and authentication and make a reservation.</p>  
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 9 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/neartuit.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">Neartuit<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A content management system for Neartuit</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">Google Firebase</div><div class="chip">nodeJS</div><div class="chip">jQuery</div><div class="chip">CMS</div><div class="chip">Stripe API</div><div class="chip">Web-App</div>
+                  </div>
+                  <div><a href="http://www.neartuit.com/" target="_blank">check this website</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Neartuit CMS<i class="material-icons right">close</i></span>
+                  <p>Neartuit uses iBeacons to detect a visitor’s location in order to provide a better experience for venue and exhibition activities.</p>
+                  <p>This project includes a content management system and a mobile APP. It uses Google Firebase as database, nodeJS to provide back-end services, pureJS, CSS, and HTML for the front-end CMS.</p>  
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 1 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/moro-baby.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">moro baby<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A commercial photograph service website</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">C#.NET</div><div class="chip">SQL Server</div>
+                  </div>
+                  <div><a href="http://www.moro-baby.com/" target="_blank">visit this website</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Moro Baby<i class="material-icons right">close</i></span>
+                  <p>A great photographer owns a studio also takes beautiful photos for new-born babies and their parents.</p>
+                  <p>This website was created on the photographer's request, using C#.net and SQL Server, running on a solely hosted server environment, and has been running well for over 6 years.</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 2 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/snake-game.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">Snake game<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A cross-platform game</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">JAVA</div><div class="chip">libGDX</div><div class="chip">GWT</div><div class="chip">GAME</div>
+                    <div class="chip">Web-APP</div>
+                  </div>
+                  <div><a href="products/snake_game" target="_blank">play this game</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Snake<i class="material-icons right">close</i></span>
+                  <p>This game was implemented with JAVA, and deployed into a JavaScript version with the use of GWT.</p>
+                  <p>This game was implemented using an open-source lightweight game-development framework - libGDX.</p>      
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 3 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/flappee-bee.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">Flappee Bee<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A cross-platform game</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">JAVA</div><div class="chip">libGDX</div><div class="chip">GWT</div><div class="chip">GAME</div>
+                    <div class="chip">Web-APP</div>
+                  </div>
+                  <div><a href="products/flappee_bee" target="_blank">play this game</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">Flappee Bee<i class="material-icons right">close</i></span>
+                  <p>This game was implemented with JAVA, and deployed into a JavaScript version with the use of GWT.</p>
+                  <p>This game was implemented using an open-source lightweight game-development framework - libGDX.</p>      
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 4 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/tile2048.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">T!le 2048<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>A cross-platform game</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">JAVA</div><div class="chip">libGDX</div><div class="chip">GWT</div><div class="chip">GAME</div>
+                    <div class="chip">Web-APP</div>
+                  </div>
+                  <div><a href="products/tile2048" target="_blank">play this game</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">T!le 2048<i class="material-icons right">close</i></span>
+                  <p>This game was implemented with JAVA, and deployed into a JavaScript version with the use of GWT.</p>
+                  <p>This game was implemented using an open-source lightweight game-development framework - libGDX.</p>      
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+            <!-- card 5 -->
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="responsive-img activator" src="img/projects/bailian.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4 text-uppercase">百炼成仙<i class="material-icons right" title="View description">more_vert</i></span>
+                  <p>An mmo web-game</p>
+                  <div class="tech-chips text-uppercase">
+                    <div class="chip">AS3</div><div class="chip">C++</div><div class="chip">Flash</div><div class="chip">Flex</div>
+                    <div class="chip">Web-Game</div>
+                  </div>
+                  <div><a href="http://xblcx.91wan.com/" target="_blank">play this game</a></div>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4 text-uppercase">百炼成仙<i class="material-icons right">close</i></span>
+                  <p>This game was developped many years ago when I was working for 91wan - a web game development company in China.</p>
+                  <p>This is an Massive Multi-players Online game released in China. The front-end is programmed in ActionScript 3 and the back-end in C++.</p>      
+                </div>
+              </div>
+            </div>
+            <!-- end of card -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">"Keep your eyes on the stars and your feet on the ground."</h5>
+            <div class="col s12">
+              <i id="btn_backtop" class="large material-icons center-align white-text anchor" data-anchor="anchor-top">arrow_upward</i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax pattern-overlay"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <!-- this row only shows on small screen -->
+        <div id="sns-icon-group-mobile-view" class="row opacity-0 touch-screen-compatible show-on-touch-screen-only">
+          <div class="col s12 center">
+            <a class="waves-effect waves-light btn amber accent-light icon-btn" href="mailto:jaydenliang81@gmail.com"><i class="fa  fa-envelope fa-2x"></i> Email him now</a>
+          </div>
+          <div class="col s12 center">
+            <a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://www.facebook.com/jayjaydenL" target="_blank"><i class="fab  fa-facebook fa-2x"></i> follow him on Facebook</a>
+          </div>
+          <div class="col s12 center">
+            <a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://www.instagram.com/jay_de_lion/" target="_blank"><i class="fab  fa-instagram fa-2x"></i> follow him on Instagram</a>
+          </div>
+          <div class="col s12 center">
+            <a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://www.linkedin.com/in/jaydenliang" target="_blank"><i class="fab  fa-linkedin fa-2x"></i> connect him on Linkedin</a>
+          </div>
+          <div class="col s12 center">
+            <a class="waves-effect waves-light btn amber accent-light icon-btn" href="https://github.com/JaydenLiang" target="_blank"><i class="fab fa-github-square fa-2x"></i> fork his projects on GitHub</a>
+          </div>
+        </div>
+        <!-- this row only hides on small screen -->
+        <div class="row touch-screen-compatible hide-on-touch-screen">
+          <div class="col s12 center">
+            <ul id="sns-icon-group" class="sns-icon-group opacity-0">
+              <li class="z-depth-2">
+                <a class="sns-icon tooltipped" href="mailto:jaydenliang81@gmail.com" data-position="top" data-delay="50" data-tooltip="Email him now"> <i class="fa fa-envelope fa-2x"></i></a>
+              </li>
+              <li class="z-depth-2">
+                <a class="sns-icon tooltipped" href="https://www.facebook.com/jayjaydenL" data-position="top" data-delay="50" data-tooltip="follow him on Facebook" target="_blank"><i class="fab  fa-facebook fa-2x"></i></a>
+              </li>
+              <li class="z-depth-2">
+                <a class="sns-icon tooltipped" href="https://www.instagram.com/jay_de_lion/" data-position="top" data-delay="50" data-tooltip="follow him on Instagram" target="_blank"> <span class="fab fa-instagram fa-2x"></span></a>
+              </li>
+              <li class="z-depth-2">
+                <a class="sns-icon tooltipped" href="https://www.linkedin.com/in/jaydenliang" data-position="top" data-delay="50" data-tooltip="connect him with LinkedIn" target="_blank"> <span class="fab fa-linkedin fa-2x"></span></a>
+              </li>
+              <li class="z-depth-2">
+                <a class="sns-icon tooltipped" href="https://github.com/JaydenLiang" data-position="top" data-delay="50" data-tooltip="fork his projects on GitHub" target="_blank"> <span class="fab fa-github-square fa-2x"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright center">
+        <div class="container">
+          Created by <b><a class="amber-text text-accent-3" href="mailto:jaydenliang81@gmail.com">Jay de Lion</a></b>, 2015-2018, based on a <a class="amber-text text-accent-3" href="http://materializecss.com/">Materialize</a> parallax-template
+        </div>
+      </div>
+    </footer>
+    <div></div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/init.js"></script>
+  </div>
+</body>
+</html>
