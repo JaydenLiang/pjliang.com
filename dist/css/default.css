@@ -142,6 +142,11 @@
     list-style: none;
     padding: 10px;
 }
+
+.sns-icon-group li:hover {
+    background-color: #FFD740;
+}
+
 .sns-icon-group a{
     text-decoration: none;
     color: #000000;
