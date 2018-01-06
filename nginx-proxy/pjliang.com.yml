@@ -1,0 +1,16 @@
+version: "3"
+services:
+  web:
+    image: nginx:latest
+    volumes:
+      - "/home/ubuntu/pjliang.com/dist:/usr/share/nginx/html"
+    expose:
+      - 7801
+    restart: always
+    environment:
+      VIRTUAL_HOST: www.pjliang.com
+    container_name: web_www.pjliang.com
+networks:
+  default:
+    external:
+      name: nginx-proxy
