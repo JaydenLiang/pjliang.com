@@ -61,3 +61,7 @@ footer.page-footer {
   padding: 4px;
   text-align: left;
 }
+
+#about-person {
+  min-height: 500px;
+}
