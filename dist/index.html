@@ -163,7 +163,9 @@
           <div id="skills-container">
             <div class="row center">
               <div class="col s12 m6">
-                <ul class="collection parallax-collection left-align text-uppercase progress-sets z-depth-2">
+                <div class="text-uppercase">Programming</div>
+                <div>Language/Framework/Library</div>
+                <ul id="skills-programming" class="collection parallax-collection left-align text-uppercase progress-sets z-depth-2">
                   <li class="collection-item info field-sets">
                     <div class="progress-item">
                       <div class="progress-label field-name">JavaScript - Basic</div>
@@ -266,36 +268,73 @@
                 </ul>
               </div>
               <div class="col s12 m6">
-                <ul class="collection parallax-collection left-align text-uppercase z-depth-2">
-                  <li class="collection-item field-sets">
-                    <div class="field-name">Web-APP Development</div>
+                <div class="text-uppercase">Knowledge</div>
+                <div>Expand a knowledge for details</div>
+                <ul id="skills-knowledge" class="collection parallax-collection left-align text-uppercase z-depth-2 collapsible">
+                  <li class="collection-item field-sets collapsible-item">
+                    <div class="field-name collapsible-header">Web Development</div>
+                    <div class="collapsible-body tools-list">
+                      <ul class="tools-list-body">
+                        <li>Web Applications</li>
+                        <li>Web Services</li>
+                        <li>Web Site</li>
+                      </ul>
+                    </div>
                   </li>
                   <li class="collection-item field-sets">
-                    <div class="field-name">Web Service Development</div>
+                    <div class="field-name">RESTful API</div>
                   </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Service-Oriented Architecture</div>
+                  </li>
+                  <li class="collection-item field-sets collapsible-item">
+                    <div class="field-name collapsible-header">Microservices architecture</div>
+                    <div class="collapsible-body tools-list">
+                      <div class="tools-list-header">In platforms:</div>
+                      <ul class="tools-list-body">
+                        <li>Amazon AWS</li>
+                        <li>Microsoft Azure</li>
+                        <li>Google Cloud Engine</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="collection-item field-sets collapsible-item">
+                    <div class="field-name collapsible-header active">Automations</div>
+                    <div class="collapsible-body tools-list">
+                      <div class="tools-list-header">CI / CD:</div>
+                      <ul class="tools-list-body">
+                        <li>Travis CI</li>
+                        <li>Jenkins</li>
+                        <li>Heroku</li>
+                        <li>AWS Code Deploy</li>
+                      </ul>
+                      <div class="tools-list-header">Test Automation:</div>
+                      <ul class="tools-list-body">
+                        <li>Jenkins</li>
+                        <li>Jasmine Test</li>
+                        <li>Selenium</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="collection-item field-sets collapsible-item">
+                    <div class="field-name collapsible-header">Cloud Computing</div>
+                    <div class="collapsible-body tools-list">
+                      <div class="tools-list-header">In platforms:</div>
+                      <ul class="tools-list-body">
+                        <li>Amazon AWS</li>
+                        <li>Microsoft Azure</li>
+                        <li>Google Cloud Engine</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Devops Engineering</div>
+                  </li>
+                  <li class="collection-item field-sets">
+                    <div class="field-name">Android APP Development</div>
+                  </li class="collection-item field-sets">
                   <li class="collection-item field-sets">
                     <div class="field-name">Online Game Development</div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">SOA (Service-Oriented Architecture)</div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">RESTful Service development</div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">Microservices architecture</div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">Cloud Computing</div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">Devops</div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">Continuous Integration </div>
-                  </li>
-                  <li class="collection-item field-sets">
-                    <div class="field-name">Android Mobile-APP Development</div>
                   </li>
                 </ul>
               </div>
@@ -316,13 +355,14 @@
         <div class="row center">
           <div class="col s12">
             <h3 class="center-align text-uppercase"><a id="anchor-projects"></a>Projects</h3>
+            <div>Click on the project image to see description</div>
           </div>
         </div>
         <div id="projects-container" class="section opacity-0">
           <div class="row center">
             <!-- card 6 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/twitter_bot.jpg">
                 </div>
@@ -343,7 +383,7 @@
             <!-- end of card -->
             <!-- card 7 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/emonalysis.png">
                 </div>
@@ -366,7 +406,7 @@
             <!-- end of card -->
             <!-- card 9 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/neartuit.png">
                 </div>
@@ -388,7 +428,7 @@
             <!-- end of card -->
             <!-- card 8 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/mr_booker_t.jpg">
                 </div>
@@ -409,7 +449,7 @@
             </div>
             <!-- card 1 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/moro-baby.png">
                 </div>
@@ -431,7 +471,7 @@
             <!-- end of card -->
             <!-- card 2 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/snake-game.png">
                 </div>
@@ -454,7 +494,7 @@
             <!-- end of card -->
             <!-- card 3 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/flappee-bee.png">
                 </div>
@@ -477,7 +517,7 @@
             <!-- end of card -->
             <!-- card 4 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/tile2048.png">
                 </div>
@@ -500,7 +540,7 @@
             <!-- end of card -->
             <!-- card 5 -->
             <div class="col s12 m6">
-              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on image to see description!">
+              <div class="card tooltipped" data-position="top" data-delay="50" data-tooltip="Click on the image">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="responsive-img activator" src="img/projects/bailian.png">
                 </div>

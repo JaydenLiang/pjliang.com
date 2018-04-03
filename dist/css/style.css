@@ -65,3 +65,48 @@ footer.page-footer {
 #about-person {
   min-height: 500px;
 }
+
+.collection.collapsible .collection-item .field-name:before {
+  color: #feb834;
+  content: '-';
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
+.collection.collapsible .collection-item .collapsible-header:before {
+  content: '+';
+  padding-left: 0px;
+  padding-right: 3px;
+}
+
+.collection.collapsible .collection-item.active {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#skills-knowledge.collapsible .collapsible-header {
+  line-height: 1;
+  padding: 0;
+  background-color: #fff; 
+  border-bottom: 0px; 
+}
+
+#skills-knowledge.collapsible .collapsible-header.active {
+  color: #FFD740;
+}
+
+#skills-knowledge.collapsible .collapsible-body {
+  border-bottom: 0px;
+  box-sizing: border-box;
+  padding: 0 0 0 2rem;
+}
+
+#skills-knowledge.collapsible .collapsible-item .collapsible-body.tools-list .tools-list-body li:before{
+  color: #feb834;
+  content: '-';
+  padding: 0 3px 0 0;
+}
+
+#skills-knowledge.collapsible .collapsible-item .collapsible-body.tools-list .tools-list-body li{
+  padding: 0 0 0 1rem;
+}

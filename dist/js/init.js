@@ -32,6 +32,7 @@ $(document).ready(function(){
     $('.button-collapse').sideNav();
     $('.parallax-container').height($(window).height());
     $('.parallax').parallax();
+    // $('.collapsible').collapsible();
     anchor_scroll = new SmoothScroll('*[data-anchor]', { speed: 500, easing: 'easeOutCubic', header: '.navbar-fixed'});
     $('ul.tabs').tabs({onShow:function(e){
         var element = $("a[href='"+e.selector+"']");
